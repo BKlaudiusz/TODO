@@ -1,0 +1,4 @@
+#Wed Mar 03 13:57:04 CET 2021
+base.0=/Users/klaudiuszboblach/TODO/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
