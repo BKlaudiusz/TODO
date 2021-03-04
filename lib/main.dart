@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/routes.gr.dart';
+import 'package:flutter_app/routes.g.dart';
 import 'package:get_it/get_it.dart';
 import 'User.dart';
-import 'nick/nick_view.dart';
 
 final getIt = GetIt.instance;
 void main() {
@@ -13,7 +12,7 @@ void main() {
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
-        initialRoute: Routes.nickView,
+        initialRoute: Routes.toDoList,
         onGenerateRoute: AppRouter().onGenerateRoute);
   }
 
