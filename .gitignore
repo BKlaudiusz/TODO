@@ -1,4 +1,5 @@
 build/
 android/
+ios/
 .dart_tool/
 .packages
